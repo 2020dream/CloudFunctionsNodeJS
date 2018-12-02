@@ -30,7 +30,7 @@ const escapeHtml = require('escape-html');
  *                     More info: https://expressjs.com/en/api.html#res
  */
 exports.helloGET = (req, res) => {
-  res.send('Hello World!');
+  res.send('Welcome to my first deployed Cloud Function on GCP! I am an enthusiastic developer who cares about communication and efficiency. I am passionate about DevOps and learning Docker & Kubernetes at this moment!');
 };
 // [END functions_helloworld_get]
 
