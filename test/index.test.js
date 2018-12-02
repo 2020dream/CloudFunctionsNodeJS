@@ -46,7 +46,7 @@ test.cb(`helloGET: should print hello world`, (t) => {
     .get(`/helloGET`)
     .expect(200)
     .expect((response) => {
-      t.is(response.text, `Welcome to my first deployed Cloud Function on GCP! I am an enthusiastic developer who cares about communication and efficiency. I am passionate about DevOps and learning Docker & Kubernetes at this moment!`);
+      t.is(response.text, `Welcome to my first CI/CD Cloud Function on GCP! I am an enthusiastic developer who cares about communication and efficiency. I am passionate about DevOps and learning Docker & Kubernetes at this moment!`);
     })
     .end(t.end);
 });
