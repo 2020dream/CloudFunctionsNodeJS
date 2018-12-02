@@ -6,5 +6,5 @@ steps:
   - functions
   - deploy
   - helloGET
-  - -- runtime=nodejs8
-  - -- trigger-http
+  - --runtime=nodejs8
+  - --trigger-http
